@@ -1,0 +1,116 @@
+html,body,div,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+.post,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    color: white;
+    font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "Helvetica","Arial","Verdana","sans-serif","Microsoft Yahei","微软雅黑";
+}
+
+body {
+    background-color: #262626;
+}
+
+.header {
+    height: 85px;
+    width: 100%;
+    background-color: #262626;
+}
+
+.header .main-head {
+    width: 1280px;
+    height: 85px;
+    background: #262626;
+    margin: 0 auto;
+    line-height: 85px;
+}
+
+.header .logo {
+    float: left;
+    width: 62px;
+    height: 85px;
+    background-image: url('data:image/png;base64,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');
+    background-repeat: no-repeat;
+    background-position: 20px 25px;
+    background-size: 44px 34px;
+    background-color: #262626;
+}
+
+.header .title {
+    font-size: 16px;
+    float: left;
+    margin-left: -7px;
+    text-decoration: none;
+    line-height: 85px;
+}
+
+.header .sub-title {
+    font-size: 12px;
+    float: left;
+    color: #CCC;
+    text-decoration: none;
+    margin-left: 12px;
+    line-height: 85px;
+}
+
+.main-container {
+    height: 562px;
+    width: 100%;
+    background: black;
+}
+
+#playerContainer,
+#playerContainer_wrapper {
+    width: 1000px;
+    height: 562px;
+    margin: 0 auto;
+    background: #000;
+    border: none;
+}
+
+#playerContainer .file-warning {
+    background: black;
+    line-height: 562px;
+    height: 562px;
+    margin: 0 auto;
+    width: 240px;
+    display: block;
+}
+
+.footer {
+    width: 1280px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.footer .tip {
+    float: right;
+    color: #999;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.footer .opt {
+    float: left;
+    margin-top: 15px;
+}
+
+.footer .opt a {
+    color: #087AC9;
+    text-decoration: none;
+    font-size: 12px;
+}
